@@ -1,6 +1,7 @@
 $(document).ready(function () {
     // setting global variables
     let clickCount = 0;
+    let myColors = ['42f4ce', '8ca5ce', 'de93e2', 'e293a5', 'e2b193', 'dbe293', '93e296' ];
     // Loading random quote in as initial text
     $.ajax({
         url: 'http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1',
@@ -27,11 +28,14 @@ $(document).ready(function () {
         });
 
         // Changing to random background color on click
-        let myColors = ['42f4ce', '8ca5ce', 'de93e2', 'e293a5', 'e2b193', 'dbe293', '93e296' ];
+
         $('body').css("background-color", "#"+myColors[clickCount]);
         clickCount += 1;
         if(clickCount === myColors.length) {
             clickCount = 0;
         }
     });
+
+    // tweeting the quote
+
 });
