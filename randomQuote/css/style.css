@@ -1,0 +1,18 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background: #fff;
+}
+.quoteBox {
+    background: #9ea0a3;
+    margin: 250px auto 0 auto;
+}
+
+.my-right {
+    padding-right: 50px;
+}
+
+.my-buttons {
+    margin: 20px auto;
+}
