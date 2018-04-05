@@ -6,11 +6,20 @@ html, body {
 }
 .quoteBox {
     background: #9ea0a3;
+    border-radius: 15px;
     margin: 250px auto 0 auto;
+}
+
+.insertQuote {
+    padding-top: 25px;
 }
 
 .my-right {
     padding-right: 50px;
+}
+
+.insertAuthor {
+    padding-bottom: 25px;
 }
 
 .my-buttons {
