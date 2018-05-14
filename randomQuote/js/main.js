@@ -28,12 +28,13 @@ $(document).ready(function () {
         });
 
         // Changing to random background color on click
-
-        $('body').css("background-color", "#"+myColors[clickCount]);
-        clickCount += 1;
-        if(clickCount === myColors.length) {
-            clickCount = 0;
-        }
+        setTimeout(function () {
+            $('body').css("background-color", "#" + myColors[clickCount]);
+            clickCount += 1;
+            if (clickCount === myColors.length) {
+                clickCount = 0;
+            }
+        }, 400);
     });
 
     // tweeting the quote
