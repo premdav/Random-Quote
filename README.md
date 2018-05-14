@@ -1,4 +1,5 @@
 # Random-Quote
 Random quote generator
-This was made while going through the freeCodeCamp curriculum.
-Will use an API to get JSON data for the quotes, and generate a new quote whenever the user clicks the "new quote" button.
+
+Uses quotesondesign API to get JSON data for new quotes. Displays data for a new quote every time "new quote" button is clicked.
+There is also a button that allows each tweet to be tweeted by clicking "tweet quote" button.
